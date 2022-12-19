@@ -15,18 +15,30 @@
     />
   </head>
 
-  <body>
+  <body id="body">
     <header>
-      <a href="#" class="logo">Photograph<span>e</span>r.</a>
+      <a href="#" class="logo">Photograph<span class="spanii">e</span>r.</a>
 
       <ul class="navlist">
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li id="active1"><a href="#home"class="active">Home</a></li>
+        <li id="active2"><a href="#about">About Me</a></li>
+        <li id="active3"><a href="#services">Services</a></li>
+        <li id="active4"><a href="#portfolio">Portfolio</a></li>
+        <li id="active5"><a href="#contact">Contact Me</a></li>
       </ul>
       <div class="bx bx-menu" id="menu-icon"></div>
+
+      <div id="mobileNav">
+        <a href="#" class="logo">Photograph<span class="spani">e</span>r.</a>
+        <div id="closeBtn" class="closeBtn">✖</div>
+        <ul class="navlistMobile">
+          <li id="linku1"><a href="#home" class="active">  <i class='bx bxs-home'></i>Home</a></li>
+          <li id="linku2"><a href="#about"><i class='bx bx-male'></i>About Me</a></li>
+          <li id="linku3"><a href="#services"><i class='bx bxs-camera'></i>Services</a></li>
+          <li id="linku4"><a href="#portfolio"><i class='bx bxs-photo-album' ></i>Portfolio</a></li>
+          <li id="linku5"><a href="#contact"></i><i class='bx bxs-contact' ></i>Contact Me</a></li>
+        </ul>
+      </div>
     </header>
 
     <section class="home" id="home">
@@ -54,7 +66,7 @@
 
     <section class="about" id="about">
       <div class="about-img">
-        <img src="img/IMG_5478.jpg" />
+        <img src="img/IMG_5478.jpg"/>
       </div>
 
       <div class="about-text">
@@ -62,7 +74,7 @@
         <h4>Landscape Photograph<span>e</span>r.</h4>
         <i class="bx bx-landscape" style="font-size: 40px; color: rgb(192, 93, 0)"></i>
         <p>
-          &nbsp; I am a Mechanical Engineering student with an unconditional love for <br />
+          &nbsp; I am a Mechanical Engineering student with an unconditional <br/> love for 
           mountains and a passion for travelling and <br />
           photographing the corners of our world. I grew up in <br />
           Tirana, capital of Albania.<br />
@@ -151,7 +163,30 @@
         <img src="img/IMG_1454.JPG" />
       </div>
     </section>
-
+    
+    <section class="contact" id="contact">
+      <div class="main-text">
+      <h2><span>Contact</span> Me</h2> 
+      </div>
+      <div class="contact-icons">
+        <div class="instagram">
+          <i class='bx bxl-instagram'></i> <a href="https://www.instagram.com/edendorozhanii/" target="_blank" class="eden-ig">edendorozhanii</a>
+        </div> 
+        <div class="facebook">
+          <i class='bx bxl-facebook-square'></i> <a href="https://www.facebook.com/eden.dorozhani.7" target="_blank" class="eden-fb">Eden Dorozhani</a>
+        </div>
+        <div class="linkedin">
+          <i class='bx bxl-linkedin-square'></i> <a href="https://www.linkedin.com/in/eden-dorozhani-6a0357258/" target="_blank" class="eden-id">Eden Dorozhani</a>
+        </div>
+        <div class="gmail">
+          <i class='bx bxl-gmail'></i> <a href="https://mail.google.com/mail/u/0/#search/dorozhanieden%40gmail.com" target="_blank" class="eden-gm">dorozhanieden@gmail.com</a>
+        </div>
+        <div class="phone">
+          <i class='bx bxs-phone-call'></i> <a class="phone-me">+355693770576</a>
+        </div>
+      </div>
+    </section>
+            
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
